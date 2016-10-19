@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">RecepcionesApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Login-->
+    <string name="txtUser">Usuario</string>
+    <string name="txtPassword">Contraseña</string>
+    <string name="txtBtnGuest">Invitado</string>
+    <string name="txtBtnLogin">Inicio</string>
+    <string name="title_activity_principal">Inicio</string>
+    <string name="user_pws_error">Usuario no registrado</string>
+    <string name="user_wh_error">Usuario sin deposito</string>
+    <string name="title_activity_lista_cliente">Proveedores</string>
+
+    <!-- Menu-->
+    <string name="txtMenu">Menu</string>
+    <string name="txtProcessPO">Procesar Orden de Compra</string>
+    <string name="txtSyncProv">Sincronizar Proveedores</string>
+    <string name="txtSyncUPC">Enviar nuevos UPC</string>
+    <string name="txtSyncOrders">Enviar Ordenes Finalizadas</string>
+    <string name="txtReport">Reportes</string>
+    <string name="txtSettings">Configuraciones</string>
+    <string name="txtWPO">Con Orden de Compra</string>
+    <string name="txtWoPO">Sin Orden de Compra</string>
+
+
+    <!-- Lista Orden-->
+    <string name="txtChoseOrder">Elija las Ordenes</string>
+
+    <!-- AsociarBarCode-->
+    <string name="txtAsociarBarCode">Asociar Codigo de Barras</string>
+
+    <!-- Ingreso Facturas-->
+    <string name="txtInsertarFact">Ingrese las Facturas</string>
+    <string name="txtFactSerie">Serie:</string>
+    <string name="txtFactNo">Nro. De Factura:</string>
+    <string name="txtDate">Fecha:</string>
+    <string name="txtInsert">Guardar Factura</string>
+    <string name="txtOrder">Orden:</string>
+
+
+    <!-- Reportes-->
+    <string name="txtReports">Reportes</string>
+
+
+    <!-- Lista Cliente-->
+    <string name="txtChoseSupplier">Elija un Proveedor</string>
+    <string name="txtLookUp">Buscar:</string>
+    <string name="txtNext">Siguiente</string>
+    <string name="txtBack">Atras</string>
+    <string name="txtProcess">Recepcionar:</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_lista_ordenes">Ordenes de Compra</string>
+    <string name="title_activity_process_order">Procesar Orden</string>
+
+    <!-- Lista Orden-->
+    <string name="txtProducts">Productos:</string>
+    <string name="title_activity_procesar_orden">Procesar Orden</string>
+
+
+    <!-- Lista Productos-->
+    <string name="txtCancell">Cancelar</string>
+    <string name="txtSave">Guardar</string>
+    <string name="txtEnd">Finalizar</string>
+    <string name="txtScan">Escanear</string>
+    <string name="txtFac">Fact.</string>
+    <string name="txtRec">Rec.</string>
+    <string name="txtInsertBC">Ingresar CB</string>
+
+    <!-- Dialog Cantidades recibidas-->
+    <string name="txtInvoiced">Facturado</string>
+    <string name="txtReceived">Recibido</string>
+    <string name="txtQuantities">Cantidades</string>
+    <string name="txtOK">OK</string>
+    <string name="txtResetQty">Corregir</string>
+
+
+    <!-- register Activity-->
+    <string name="txtName">Nombre</string>
+    <string name="txtLastName">Apellido</string>
+    <string name="txtConfPassword">Repetir Contraseña</string>
+    <string name="txtUserName">Nombre de Usuario</string>
+    <string name="txtAlreadyUser">Ya tienes una cuenta! Sign in</string>
+    <string name="txtRegisterNewAccount">Registrar la Cuenta</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_confirmar_cantidades">Confirmar Cantidades</string>
+    <string name="title_activity_register">Registro</string>
+
+    <!-- Procesar Nueva Orden-->
+    <string name="process_new_order">¿Desea procesar una nueva orden?</string>
+    <string name="new_supplier">Nuevo Proveedor</string>
+
+    <string name="noInternet">No hay acceso a internet !!</string>
+    <string name="title_activity_ingreso_facturas">Ingreso de Facturas</string>
+    <string name="title_activity_asociar_bar_code">Asociar Codigo de Barras</string>
+    <string name="title_activity_reportes">Reportes</string>
+    <string name="title_activity_orden_de_compra">Orden De Compra</string>
+    <string name="title_activity_settings">Configuraciones</string>
+
+    <!-- Settings-->
+    <string name="txtReset">Reinicio de Fabrica</string>
+
+
+</resources>

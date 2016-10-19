@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.openup.covadonga.covadongaapp" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.read_external_storage" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.read_external_storage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="device.sdk.sample.scanner.permission.SCANNER_RESULT_RECEIVER"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="device.sdk.sample.scanner.permission.SCANNER_RESULT_RECEIVER" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <application
+        android:name=".util.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaProveedorActivity"
+            android:label="@string/title_activity_lista_cliente"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".ListaOrdenesActivity"
+            android:label="@string/title_activity_lista_ordenes"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".ProcesarOrdenActivity"
+            android:label="@string/title_activity_procesar_orden"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".ConfirmarCantidadesActivity"
+            android:label="@string/title_activity_confirmar_cantidades" >
+        </activity>
+        <activity
+            android:name=".IngresoFacturasActivity"
+            android:label="@string/title_activity_ingreso_facturas"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".AsociarBarCodeActivity"
+            android:label="@string/title_activity_asociar_bar_code"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".ReportesActivity"
+            android:label="@string/title_activity_reportes"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".OrdenDeCompraActivity"
+            android:label="@string/title_activity_orden_de_compra" >
+        </activity>
+
+        <receiver
+            android:name=".ProcesarOrdenActivity$ScanResultReceiver"
+            android:enabled="true"
+            android:permission="device.sdk.sample.scanner.permission.SCANNER_RESULT_RECEIVER"
+            android:priority="0" >
+            <intent-filter>
+                <action android:name="device.common.USERMSG" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>
